@@ -1,6 +1,10 @@
 <html>
   <head>
     <title>Rosebud</title>
+    <?php $header_image = get_header_image();
+		if ( ! empty( $header_image ) ) : ?>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $http://www.clipartandcrafts.com/clipart/themes/kidstuff/images/sled.jpg ); ?>" class="http://www.clipartandcrafts.com/clipart/themes/kidstuff/images/sled.jpg" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
+		<?php endif; ?>
       <style>
         body  {
           background-color:#9999ff;
