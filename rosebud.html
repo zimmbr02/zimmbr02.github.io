@@ -1,10 +1,13 @@
 <html>
   <head>
     <title>Rosebud</title>
-    <?php $header_image = get_header_image();
+    	<h1 class="header-image"><span><?php $header_image = get_header_image();
 		if ( ! empty( $header_image ) ) : ?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $http://www.clipartandcrafts.com/clipart/themes/kidstuff/images/sled.jpg ); ?>" class="http://www.clipartandcrafts.com/clipart/themes/kidstuff/images/sled.jpg" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
-		<?php endif; ?>
+			<a>"><img src="<http://www.clipartandcrafts.com/clipart/themes/kidstuff/images/sled.jpg ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="MY WEBSITE" /></a>
+		<?php endif; ?></span>
+			<h1 class="site-title"><a>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		</hgroup>
       <style>
         body  {
           background-color:#9999ff;
