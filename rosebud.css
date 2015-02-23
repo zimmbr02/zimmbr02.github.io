@@ -1,61 +1,44 @@
-<style>
-        
-        header {
-          position:fixed;
-          background-color:#bbbbbb;
-          top:0px;
-          left:0px;
-          width:100%;
-          height:20px;
-        }
-        nav {
-          margin-top:20px;
-          margin-bottom:50px;
-          width:100%;
-          background-color:cyan;
-          font-size:28pt;
-      		text-align:center;
-      		font-family: helvetica;
-      		color:#FF85C2;
-        }
-        
-        section {
-          float:left;
-          width:15%;
-          height:480px;
-          background-color:#f2f2f2;
-          }
-        
-        
-  
-        footer  {
-          background-color:#f2f2f2;
-          width:100%;
-          position:relative;
-          text-align:center;
-        }
-        
-       
-        
-        body {
+
+      body {
           background-image:url("http://www.zingerbug.com/Backgrounds/background_images/light_turquoise_bricks_pattern.gif")
-        }
-  
-      	
-      	h2	{
-      	  font-size:12pt;
-      	  text-align:center;
-      	  color:#FF85C2;
-      	  font-family: helvetica;
-        }
-        
-        p {
-          font-size:12pt;
-          color:#FF85C2;
+      }
+      table {
+          font-size:20pt;
+          border-style:solid;
+          border-spacing:10px;
+          font-family:fantasy;
           text-align:center;
-          font-family: helvetica;
           
-        }
+      }
+      .titlerow {
+       text-align:center;
+       background-color:#33bb33;
        
+      }
       
-    </style>
+      .labelrow {
+       background-color:#bb3333;
+      }
+      .odd {
+          background-color:#9999ff;
+      }
+      .activity {
+        background-color:#66ffff;
+      }
+      .even {
+          background-color:#ff9999;
+      }
+      
+      .classes {
+          rowspan:'4';
+          text-align:center;
+      }
+      
+      .timeslot {
+          background-color:#99ff99;
+      }
+      .days {
+       colspan:'12%';
+      }
+    
+   
