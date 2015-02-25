@@ -55,7 +55,7 @@
       }
       
       .rightside {
-      	float:right;
+      	static:right;
       }
       
       .titlerow {
