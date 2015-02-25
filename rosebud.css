@@ -47,14 +47,17 @@
         }
         
         section {
-          float:left;
           width:15%;
-          height:480px;
+          height:100%;
           background-color:#f2f2f2;
-          left:0px;
           font-size:16px;
           
       }
+      
+      .rightside {
+      	float:right;
+      }
+      
       .titlerow {
        text-align:center;
        background-color:#33bb33;
