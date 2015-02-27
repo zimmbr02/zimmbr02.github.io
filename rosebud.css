@@ -52,6 +52,8 @@
           background-color:#f2f2f2;
           font-size:16px;
           overflow:scroll;
+          display:inline;
+        }
           
       }
       .center{
