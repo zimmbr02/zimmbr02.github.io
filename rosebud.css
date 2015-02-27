@@ -39,9 +39,11 @@
           
           
         }
-      
+        .leftsiide {
+        left:0px;
+        }
       	.rightside {
-      	
+      	right:0px;
       	}
      
       
