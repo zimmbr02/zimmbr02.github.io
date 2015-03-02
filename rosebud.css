@@ -46,11 +46,12 @@
         img.picb	{
         	position:fixed;
         }
-        img.picc	{
-        	position:relative;
-        	left:-30px;
-        	top:30px;
-        }
+            img.c {
+    position: relative;
+    top: 20px;
+    left: -100px;
+}
+
         img.picd	{
         	margin-top:50px;
         	position:absolute;
