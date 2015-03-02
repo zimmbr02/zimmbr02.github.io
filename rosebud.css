@@ -75,7 +75,8 @@
         }
       	section#rightside {
       	float:right;
-      	display:inline;
+      	position:relative;
+      	top:500px;
       	
       	}
      
