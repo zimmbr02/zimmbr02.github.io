@@ -37,18 +37,18 @@
         	height:100px;
         	
         }
-        .pic1	{
+        .pica	{
         	position:static;
         }
-        .pic2	{
+        .picb	{
         	position:fixed;
         }
-        .pic3	{
+        .picc	{
         	position:relative;
         	left:-30px;
         	top:30px;
         }
-        .pic4	{
+        .picd	{
         	margin-top:50px;
         	position:absolute;
         }
@@ -57,6 +57,7 @@
         	width:300;
         	position:relative;
         	background-color:red;
+        	
         	
         	
         }
