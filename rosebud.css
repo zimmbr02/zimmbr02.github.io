@@ -127,6 +127,14 @@
       	top:500px;
       	
       	}
+      	
+      	p#realpage	{
+      		font-size:20px;
+        	color:#ff99ff;
+        	position:fixed;
+        	
+        	z-index:20;
+      	}
      
       
       .titlerow {
