@@ -11,7 +11,7 @@
           font-family:fantasy;
           text-align:center;
       }   
-
+	
        header {
           position:fixed;
           background-color:#bbbbbb;
@@ -38,6 +38,12 @@
         	
         }
    
+        p#position {
+        	font-size:20px;
+        	color:#ff99ff;
+        	position:fixed;
+        	float:right;
+        }
         
         section.home	{
         	width:15%;
