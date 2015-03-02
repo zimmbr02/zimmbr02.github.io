@@ -180,23 +180,25 @@
          }
           
         aside.testbox {
-        	background-color:#333333;
+        	background-color:#ee33ee;
         	width:100px;
         	height:100px;
+        	position:relative;
         	
         }
         
        aside#1 {
+       	z-index:5;
        	
        }
        
        aside#2 {
-       	position:relative;
+       
        	top:-50px;
        	left:100px;
-       	
+       	z-index:10;
        } 
   
    	aside#3	{
-   	
+   	z-index:20;
    	}
