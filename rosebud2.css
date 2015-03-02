@@ -1,4 +1,4 @@
- #mainbox {
+ section#mainbox {
          	left:400px
          	top:400px;
          	width:66%;
@@ -10,7 +10,7 @@
           
       \
         
-       aside#1 {
+       aside#a {
        	z-index:5;
        	background-color:#ee33ee;
         	width:100px;
@@ -19,7 +19,7 @@
        	
        }
        
-       aside#2 {
+       aside#b {
        
        	top:-50px;
        	left:100px;
@@ -30,7 +30,7 @@
         	position:relative;
        } 
   
-   	aside#3	{
+   	aside#c	{
    	z-index:20;
    	top:-150px;
    	left:200px;
