@@ -131,7 +131,8 @@
       	p#realpage	{
       		font-size:20px;
         	color:#ff99ff;
-        	position:fixed;
+        	position:relative;
+        	right:300px;
         	
         	z-index:20;
       	}
