@@ -21,10 +21,10 @@
        
        aside#b {
        
-       	top:-50px;
-       	left:100px;
+       	top:-250px;
+       	left:75px;
        	z-index:10;
-       		background-color:#ee33ee;
+       		background-color:#33eeee;
         	width:100px;
         	height:100px;
         	position:relative;
@@ -32,9 +32,9 @@
   
    	aside#c	{
    	z-index:20;
-   	top:-150px;
-   	left:200px;
-   		background-color:#ee33ee;
+   	top:-100px;
+   	left:100px;
+   		background-color:#eeee33;
         	width:100px;
         	height:100px;
         	position:relative;
