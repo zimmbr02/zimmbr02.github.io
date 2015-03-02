@@ -45,8 +45,8 @@
         }
         .pic3	{
         	position:relative;
-        	left:30px;
-        	bottom:30px;
+        	left:-30px;
+        	top:30px;
         }
         .pic4	{
         	margin-top:50px;
