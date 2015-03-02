@@ -37,18 +37,18 @@
         	height:100px;
         	
         }
-        .pica	{
+        img.pica	{
         	position:static;
         }
-        .picb	{
+        img.picb	{
         	position:fixed;
         }
-        .picc	{
+        img.picc	{
         	position:relative;
         	left:-30px;
         	top:30px;
         }
-        .picd	{
+        img.picd	{
         	margin-top:50px;
         	position:absolute;
         }
