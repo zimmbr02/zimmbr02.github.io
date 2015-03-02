@@ -21,8 +21,8 @@
        
        aside#b {
        
-       	top:-25px;
-       	left:75px;
+       	top:-755px;
+       	left:40px;
        	z-index:10;
        		background-color:#33eeee;
         	width:100px;
@@ -32,8 +32,8 @@
   
    	aside#c	{
    	z-index:20;
-   	top:-100px;
-   	left:100px;
+   	top:-125px;
+   	left:80px;
    		background-color:#eeee33;
         	width:100px;
         	height:100px;
