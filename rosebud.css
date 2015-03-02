@@ -132,7 +132,7 @@
       		font-size:20px;
         	color:#ff99ff;
         	position:relative;
-        	right:300px;
+        	right:-300px;
         	
         	z-index:20;
       	}
