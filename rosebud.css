@@ -88,6 +88,12 @@
         	
         }
         
+        section#desk	{
+        	width:150px;
+        	position:absolute;
+        	z-index:1;
+        }
+        
         .leftsiide {
         left:0px;
         }
