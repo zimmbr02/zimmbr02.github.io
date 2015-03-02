@@ -69,6 +69,7 @@
         }
         img#picb	{
         	position:fixed;
+        	z-index:4;
         }
         img#picc {
     position: relative;
