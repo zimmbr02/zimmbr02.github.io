@@ -53,6 +53,7 @@
         }
         
         section#biggerbox	{
+        	position:absolute;
         	width:100%;
         	height:100%;
         	background-color:#bb33bb;
@@ -76,7 +77,7 @@
 }
 
 	section#scrollbox {
-		position:absolute;
+		position:relative;
 		overflow:scroll;
 		display:inline;
 		width:100;
@@ -98,6 +99,7 @@
         }
         
         section#catbugbox	{
+        	position:absolute;
         	height:1200;
         	width:300;
         	
