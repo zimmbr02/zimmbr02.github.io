@@ -31,7 +31,10 @@
 	    color:#FF85C2;
         }
         
-        
+        section	{
+        	width:15%;
+        	height:500px;
+        }
         
         .picture {
         	height:100px;
