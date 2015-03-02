@@ -34,7 +34,7 @@
         aside {
         	height:300px;
         	width:200px;
-        	position:fixed;
+        
         	
         }
    
@@ -190,7 +190,7 @@
         
        aside#1 {
        	z-index:5;
-       	margin:100px;
+       
        	
        }
        
@@ -203,4 +203,6 @@
   
    	aside#3	{
    	z-index:20;
+   	top:-150px;
+   	left:200px;
    	}
