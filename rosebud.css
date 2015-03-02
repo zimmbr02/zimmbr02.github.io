@@ -41,6 +41,23 @@
           
           
         }
+        
+        .picture {
+        	height:100px;
+        	
+        }
+        .pic1	{
+        	position:absolute;
+        }
+        .pic2	{
+        	position:fixed;
+        }
+        .pic3	{
+        	position:relative;
+        }
+        
+        
+        
         .leftsiide {
         left:0px;
         }
