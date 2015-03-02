@@ -76,6 +76,7 @@
 }
 
 	section#scrollbox {
+		position:absolute;
 		overflow:scroll;
 		display:inline;
 		width:100;
