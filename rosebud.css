@@ -170,8 +170,8 @@
       }
     
          section#mainbox {
-         	left:300px
-         	top:300px;
+         	left:400px
+         	top:400px;
          	width:66%;
          	height:66%;
          	background-color:#666666;
@@ -182,8 +182,8 @@
         aside.testbox {
         	position:relative;
         	background-color:#333333;
-        	width:300px;
-        	height:300px;
+        	width:100px;
+        	height:100px;
         }
         
        aside#1 {
