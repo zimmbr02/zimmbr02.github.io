@@ -188,16 +188,18 @@
         }
         
        aside#1 {
-       
+       	position:relative;
        }
        
        aside#2 {
+       	position:relative;
        	top:20px;
        	left:-50px;
        	
        } 
   
    	aside#3	{
+   		position:relative;
    		right:40px;
    		bottom:-100;
    	}
