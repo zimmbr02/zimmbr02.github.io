@@ -31,6 +31,12 @@
 	    color:#FF85C2;
         }
         
+        aside {
+        	height:300px;
+        	width:200px;
+        	position:fixed;
+        	
+        }
    
         
         section.home	{
@@ -59,6 +65,12 @@
         	margin-top:50px;
         	position:absolute;
         }
+        
+         img#pice	{
+        	
+        	position:absolute;
+        }
+        
         section#catbugbox	{
         	height:1200;
         	width:300;
