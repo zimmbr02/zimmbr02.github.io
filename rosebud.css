@@ -73,6 +73,7 @@
         }
       	section#rightside {
       	float:right;
+      	display:inline;
       	
       	}
      
