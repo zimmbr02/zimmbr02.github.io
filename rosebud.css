@@ -52,6 +52,12 @@
         	background-color:#33bb33;
         }
         
+        section#biggerbox	{
+        	width:50%;
+        	height:100%;
+        	background-color:#bb33bb;
+        }
+        
         .picture {
         	height:100px;
         	
