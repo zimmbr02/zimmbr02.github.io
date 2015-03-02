@@ -169,11 +169,33 @@
        colspan:'12%';
       }
     
+         section#mainbox {
+         	left:300px
+         	top:300px;
+         	width:66%;
+         	height:66%;
+         	background-color:#666666;
+         	position:absolute;
+         	
+         }
           
-          
+        aside.testbox {
+        	position:relative;
+        	background-color:#333333;
+        	width:200px;
+        	height:200px;
+        }
         
-        
+       aside#1 {
+       	left:100px;
+       }
        
-        
+       aside#2 {
+       	left:200px;
+       	top:100px;
+       } 
   
-   
+   	aside#3	{
+   		left:300px;
+   		top:200px;
+   	}
