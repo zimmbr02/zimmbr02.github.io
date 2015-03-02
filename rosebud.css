@@ -185,15 +185,17 @@
         	height:100px;
         	position:relative;
         	
+        	
         }
         
        aside#1 {
        	z-index:5;
+       	margin:100px;
        	
        }
        
        aside#2 {
-       
+       position:;
        	top:-50px;
        	left:100px;
        	z-index:10;
