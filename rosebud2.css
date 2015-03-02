@@ -1,0 +1,37 @@
+ section#mainbox {
+         	left:400px
+         	top:400px;
+         	width:66%;
+         	height:66%;
+         	background-color:#666666;
+         	position:absolute;
+         	
+         }
+          
+        aside.testbox {
+        	background-color:#ee33ee;
+        	width:100px;
+        	height:100px;
+        	position:relative;
+        	
+        	
+        }
+        
+       aside#1 {
+       	z-index:5;
+       
+       	
+       }
+       
+       aside#2 {
+       position:;
+       	top:-50px;
+       	left:100px;
+       	z-index:10;
+       } 
+  
+   	aside#3	{
+   	z-index:20;
+   	top:-150px;
+   	left:200px;
+   	}
