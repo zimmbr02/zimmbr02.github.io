@@ -180,7 +180,6 @@
          }
           
         aside.testbox {
-        	position:relative;
         	background-color:#333333;
         	width:100px;
         	height:100px;
@@ -188,18 +187,16 @@
         }
         
        aside#1 {
-       	position:relative;
+       	
        }
        
        aside#2 {
        	position:relative;
-       	top:20px;
-       	left:-50px;
+       	top:-500px;
+       	left:1000px;
        	
        } 
   
    	aside#3	{
-   		position:relative;
-   		right:40px;
-   		bottom:-100;
+   	
    	}
