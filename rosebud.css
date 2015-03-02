@@ -89,7 +89,9 @@
         }
         
         #desk	{
-        	width:50px;
+        	top:500px;
+        	left:75px;
+        	width:150px;
         	position:absolute;
         	z-index:10;
         }
