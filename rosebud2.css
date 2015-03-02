@@ -10,7 +10,7 @@
           
       \
         
-       #1 {
+       aside#1 {
        	z-index:5;
        	background-color:#ee33ee;
         	width:100px;
@@ -19,7 +19,7 @@
        	
        }
        
-       #2 {
+       aside#2 {
        
        	top:-50px;
        	left:100px;
@@ -30,7 +30,7 @@
         	position:relative;
        } 
   
-   	#3	{
+   	aside#3	{
    	z-index:20;
    	top:-150px;
    	left:200px;
