@@ -13,28 +13,41 @@
   
  #title {
    width:100%;
-   height:10%;
-   margin:0px;
+   height:8%;
+   top:20px;
    background-color:cyan;
    font-size:28pt;
    text-align:center;
    font-family: helvetica;
-	  color:#FF85C2;
+   color:#FF85C2;
   }
   
  #assignments {
-   margin:0px;
+   top:0px;
+   right:0px;
    width:15%;
    height:500px;
    background-color:#33bb33;
+   float:left;
    
  } 
  
+ #interactive	{
+   width:70%;
+   background-color:#2222ee;
+   left:0px;
+   right:0px;
+   float:left;
+ 	
+ }
+ 
  #rightside {
-   margin:0px;
+   top:0px;
+   left:0px;
    width:15%;
    height:500px;
    background-color:#33bb33;
+   float:left;
  }
   
   
