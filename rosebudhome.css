@@ -16,10 +16,7 @@
    height:8%;
    top:20px;
    background-color:cyan;
-   font-size:28pt;
-   text-align:center;
-   font-family: helvetica;
-   color:#FF85C2;
+   
   }
   
  #assignments {
@@ -34,7 +31,8 @@
  
  #interactive	{
    width:70%;
-   background-color:#2222ee;
+   height:500px;
+   background-color:#ff66ee;
    left:0px;
    right:0px;
    float:left;
@@ -48,6 +46,14 @@
    height:500px;
    background-color:#33bb33;
    float:left;
+ }
+ 
+ #sitetext {
+   top:20px;
+   font-size:28pt;
+   text-align:center;
+   font-family: helvetica;
+   color:#FF85C2;
  }
   
   
