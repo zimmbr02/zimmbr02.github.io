@@ -6,11 +6,13 @@
    background-color:#bbbbbb;
    width:100%;
    height:60px;
+   bottom:0px;
+   
   }
   
  #title {
    
-   
+   top:0px;
    width:100%;
    height:8%;
    background-color:cyan;
@@ -46,6 +48,7 @@
  }
  
  #sitetitle {
+   position:relative;
    margin-top:20px;
    font-size:28pt;
    text-align:center;
