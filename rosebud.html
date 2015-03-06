@@ -28,11 +28,16 @@
     
     
     <section id='interactive'>
-      <button>Click Me</button>
+      
+      
+      
+      
       <label for="user">Username</label>
         <input type='text' id="user">
       <label for='pass'>Password</label>
         <input type='text' id='pass'>
+        
+      <button onclick="signin();">Go!</button>
       
     </section>
     
@@ -49,7 +54,16 @@
       <p>rosebudcharity@gmail.com</p>
       <p>(555)-555-5555</p>
     </section>
-    
+    <script>
+      signin = function() {
+        var itemone = document.querySelector("user");
+        var itemtwo = document.querySelector("pass");
+        username = itemone.value;
+        password = itemtwo.value;
+        alert(username + password);
+      }
+      
+    </script>
     
   </body>
   
