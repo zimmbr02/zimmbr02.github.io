@@ -1,42 +1,38 @@
 <html>
-  <head>
-    <title>Fun with Positions</title>
-     <link rel="icon" 
+ 
+ <head>
+   <title>Assignment 3</title>
+   <link rel="icon" 
       type="image/png" 
       href="http://i.gyazo.com/67ea939aad48114dd076a2564efbd933.png">
       
-      <link rel="stylesheet"
+    <link rel="stylesheet"
       type="text/css"
-      href="rosebud.css">
+      href="assignment.css">
         
-  </head>
+ </head> 
   
-  <body>
+ <body>
+  <h1>Degrees Converter</h1> 
+  <p>C -> F</p>
   
-     <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" id="pica">
-     <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" id="picb">
-     <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" id="picc">
-     <a href='assignment2b.html'><p id='realpage'>Click this to see the actual assignment</p></a>
-     <a href="rosebud.html"><p id="position">Click this to return home!</p></a>
-     <section id="biggerbox">
-     <section id="catbugbox">
-        <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" id="picd">
-        <img src='http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Nuvola_desk_2.svg/800px-Nuvola_desk_2.svg.png' id='desk'>
-       
-     </section>
-     <section id='scrollbox'>
-       <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" >
-        <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" >
-        <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" >
-        <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" >
-        <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" >
-        <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" >
-        <img src="http://fc08.deviantart.net/fs71/f/2013/014/4/9/catbug_by_sircinnamon-d5riz9k.png" class = "picture" >
-     </section>
-        
-     </section>
+  <label for="f">Degrees in C</label>
+        <input type='text' id="f">
+  <button id='ctof' onclick='cf();'>Convert</button>
+  <p id='answerone'></p>
   
-  </body>
+  <script>
+    cf = function() {
+      var deg = document.querySelector("#f");
+      adeg = f.value;
+      newdeg = deg * 1.8 + 32;
+      var ans = document.querySelector('#answerone');
+      ans.innerHTML = newdeg;
+      
+    }
+  </script>
+ </body>  
+  
   
   
 </html>
