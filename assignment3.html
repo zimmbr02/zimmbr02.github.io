@@ -1,1 +1,38 @@
-
+<html>
+ 
+ <head>
+   <title>Assignment 3</title>
+   <link rel="icon" 
+      type="image/png" 
+      href="http://i.gyazo.com/67ea939aad48114dd076a2564efbd933.png">
+      
+    <link rel="stylesheet"
+      type="text/css"
+      href="assignment.css">
+        
+ </head> 
+  
+ <body>
+  <h1>Degrees Converter</h1> 
+  <p>C -> F</p>
+  
+  <label for="f">Degrees in C</label>
+        <input type='text' id="f">
+  <button id='ctof' onclick='cf();'>Convert</button>
+  <p id='answerone'></p>
+  
+  <script>
+    cf = function() {
+      var deg = document.querySelector("#f");
+      adeg = f.value;
+      newdeg = deg * 1.8 + 32;
+      var ans = document.querySelector('#answerone');
+      ans.innerHTML = newdeg;
+      
+    }
+  </script>
+ </body>  
+  
+  
+  
+</html>
