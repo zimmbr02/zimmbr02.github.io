@@ -16,18 +16,22 @@
   <h1>Degrees Converter</h1> 
   <p>C -> F</p>
   
-  <label for="f">Degrees in C</label>
-        <input type='number' id="f">
-  <button id='ctof' onclick='cf();'>Convert</button>
+  <label for="w">Weight in pounds</label>
+   <input type='number' id="w">
+  <labal for="h">Height in inches</labal>
+   <input type='number' id="h">
+  <button id='gogo' onclick='b();'>Convert</button>
   <p id='answerone'></p>
   
   <script>
-    cf = function() {
-      var deg = document.querySelector("#f");
-      adeg = f.value;
-      newdeg = adeg * 1.8 + 32;
+    b = function() {
+      var weight = document.querySelector("#w");
+      var weight = document.querySelector("#w");
+      wei = weight.value;
+      hei = hegiht.value;
+      newbmi = (wei * 703) / (hei * hei);
       var ans = document.querySelector('#answerone');
-      ans.innerHTML = newdeg + "   Degrees F";
+      ans.innerHTML = newbmi + "   BMI";
       
     }
     
