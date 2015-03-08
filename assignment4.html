@@ -16,25 +16,28 @@
   <h1>BMI Calculator</h1> 
   
   
-  <label for="w">Weight in pounds</label>
-    <input type='number' id="w">
-  <labal for="h">Height in inches</labal>
-    <input type='number' id="h">
-  <button onclick='bla();'>Calculate</button>
+  <label for="we">Weight in pounds</label>
+    <input type='number' id="we">
+  <labal for="he">Height in inches</labal>
+    <input type='number' id="he">
+  <button id='ctof' onclick='bla();'>Calculate</button>
   <h2 id='answerones'>hi</h2>
   
   <script>
     bla = function() {
-      var tubesock = document.querySelector("#w");
-      var waffle = document.querySelector("#h");
-      web = tubesock.value;
-      heh = waffle.value;
+      var tubesock = document.querySelector("#we");
+      var waffle = document.querySelector("#he");
+      web = we.value;
+      heh = he.value;
       newbmi = web * 703 / heb / heb;
       var ans = document.querySelector('#answerones');
       ans.innerHTML = newbmi + "   BMI";
       
     }
     
+    
+ 
+
     
   </script>
  </body>  
