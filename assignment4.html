@@ -1,7 +1,7 @@
 <html>
  
  <head>
-   <title>Assignment 3</title>
+   <title>Assignment 4</title>
    <link rel="icon" 
       type="image/png" 
       href="http://i.gyazo.com/67ea939aad48114dd076a2564efbd933.png">
@@ -13,24 +13,24 @@
  </head> 
   
  <body>
-  <h1>Degrees Converter</h1> 
-  <p>C -> F</p>
+  <h1>BMI Calculator</h1> 
+  
   
   <label for="w">Weight in pounds</label>
-   <input type='number' id="w">
+    <input type='number' id="w">
   <labal for="h">Height in inches</labal>
-   <input type='number' id="h">
-  <button id='gogo' onclick='b();'>Convert</button>
-  <p id='answerone'></p>
+    <input type='number' id="h">
+  <button onclick='b();'>Calculate</button>
+  <p id='answerones'></p>
   
   <script>
     b = function() {
       var weight = document.querySelector("#w");
       var height = document.querySelector("#h");
-      wei = weight.value;
-      hei = hegiht.value;
-      newbmi = (wei * 703) / (hei * hei);
-      var ans = document.querySelector('#answerone');
+      web = weight.value;
+      heh = hegiht.value;
+      newbmi = web * 703 / heb / heb;
+      var ans = document.querySelector('#answerones');
       ans.innerHTML = newbmi + "   BMI";
       
     }
