@@ -17,12 +17,13 @@
   
   
   <label for="we">Weight in pounds</label>
-    <input type='number' id="we">
+    <input type='range' min="70" max='500' value='175' onmousemove="bla();" id="we">
   <labal for="he">Height in inches</labal>
-    <input type='number' id="he">
+    <input type='range' min="42" max='84' value='72' onmousemove="bla();" id="he">
   <button id='ctof' onclick='bla();'>Calculate</button>
-  <h2 id='answerones'></h2>
-  
+  <h2 id='answerones'>Weight: ?</h2>
+  <h2 id='answertwos'>Height: ?</h2>
+  <h2 id='answerthree'>BMI: ?</h2>
   <script>
     bla = function() {
       tubesock = document.querySelector("#we");
@@ -31,7 +32,12 @@
       heb = waffle.value;
       newbmi = web * 703 / heb / heb;
       var ans = document.querySelector('#answerones');
-      ans.innerHTML = newbmi + "   BMI";
+      anso = document.querySelector('#answertwos');
+      ansi = document.querySelector('#answerthree');
+      ansi.innerHTML ="BMI: " +  newbmi ;
+      anso.innerHTML = "Height: " + web;
+      ans.innerHTML = "Weight: " + heb;
+      
       
     }
     
