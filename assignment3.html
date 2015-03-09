@@ -14,13 +14,13 @@
   
  <body>
   <h1>Degrees Converter</h1> 
-  <p>Celsius -> Ferenheit</p>
+  <p>Celsius -> Fahrenheit</p>
   
   <label for="f">Degrees in C</label>
         <input type='range' min='-40' value='0' max='100' onmousemove='cf();' id="f">
   <button id='ctof' onclick='cf();'>Convert</button>
   <p id='answerzero'>Degrees Celsius: 0</p>
-  <p id='answerone'>Degrees Ferinheit: 32</p>
+  <p id='answerone'>Degrees Fahrenheit: 32</p>
   
   <script>
     cf = function() {
@@ -29,7 +29,7 @@
       newdeg = adeg * 1.8 + 32;
       var ans = document.querySelector('#answerone');
       anso = document.querySelector('#answerzero');
-      ans.innerHTML ="Degrees Ferinheit:" + newdeg;
+      ans.innerHTML ="Degrees Fahrenheit:" + newdeg;
       anso.innerHTML = 'Degrees Celcius: 0' + adeg;
       
     }
