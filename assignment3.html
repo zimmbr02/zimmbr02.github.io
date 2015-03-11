@@ -35,8 +35,11 @@
       if (newdeg > 90) {
       document.querySelector("#selection").innerHTML='TOO HOT!';
       }
-      else { 
+      if (newdeg <90) { 
       document.querySelecctor('#selection').innterHTLML='TOO COLD';
+      }
+      if (newdeg == 90){
+       document.querySelecctor('#selection').innterHTLML='JUST RIGHT';
       }
     }
     
