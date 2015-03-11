@@ -41,7 +41,14 @@
       if (newbmi > 24) {
        document.querySelector('#selection').innerHTML = 'Too High';
        document.querySelector('#selection').style.backgroundColor = "red";
-       
+      }
+      if (newbmi < 19) {
+       document.querySelector('#selection').innerHTML = 'Too Low';
+       document.querySelector('#selection').style.backgroundColor = "red";
+      }
+      if (newbmi >= 19 && newbmi <=24) {
+       document.querySelector('#selection').innerHTML = 'Healthy';
+       document.querySelector('#selection').style.backgroundColor = "green";
       }
       
       
