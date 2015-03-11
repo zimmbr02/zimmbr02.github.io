@@ -21,6 +21,7 @@
   <button id='ctof' onclick='cf();'>Convert</button>
   <p id='answerzero'>Degrees Celsius: 0</p>
   <p id='answerone'>Degrees Fahrenheit: 32</p>
+  <p id='selection'></p>
   
   <script>
     cf = function() {
@@ -31,7 +32,12 @@
       anso = document.querySelector('#answerzero');
       ans.innerHTML ="Degrees Fahrenheit: "+  newdeg;
       anso.innerHTML = 'Degrees Celcius: ' +adeg;
-      
+      if (newdeg > 90) {
+      document.querySelector("#selection").innerHTML='TOO HOT!';
+      }
+      else { 
+      document.querySelecctor('#selection').innterHTLML='TOO COLD';
+      }
     }
     
     
