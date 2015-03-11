@@ -24,6 +24,7 @@
   <h2 id='answerones'>Height: ?</h2>
   <h2 id='answertwos'>Weight: ?</h2>
   <h2 id='answerthree'>BMI: ?</h2>
+  <h2 id='selection'></h2>
   <script>
     bla = function() {
       tubesock = document.querySelector("#we");
@@ -37,6 +38,11 @@
       ansi.innerHTML ="BMI: " +  newbmi ;
       anso.innerHTML = "Weight: " + web;
       ans.innerHTML = "Height: " + heb;
+      if (newbmi > 24) {
+       document.querySelector('#selection').innerHTML = 'Too High';
+       document.querySelector('#selection').style.backgroundColor = "red";
+       
+      }
       
       
     }
