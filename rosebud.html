@@ -41,7 +41,7 @@
         
       <button onclick="signin();">Go!</button>
       
-      <h1>List</h1> <button id='listmaker' onclick="creater();"></button>
+      <h1>List</h1> <button id='listmaker' onclick="creater();">Add an user</button>
       <ul id='out'></ul>
       
     </section>
@@ -71,7 +71,7 @@
       creator = function() {
         thelist = document.querySelector('#out');
         newitem = document.createElement('li');
-        newitem.innerHTML = username;
+        newitem.innerHTML = "hi";
         thelist.appendChild(newitem);
       }
       
