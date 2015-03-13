@@ -41,6 +41,9 @@
         
       <button onclick="signin();">Go!</button>
       
+      <h1>List</h1> <button id='listmaker' onclick="creater();"></button>
+      <ul id='out'></ul>
+      
     </section>
     
     
@@ -63,6 +66,13 @@
         username = itemone.value;
         password = itemtwo.value;
         alert("Is this correct?" + username + "," + password);
+      }
+      
+      creator = function() {
+        thelist = document.querySelector('#out');
+        newitem = document.createElement('li');
+        newitem.innerHTML = username;
+        thelist.appendChild(newitem);
       }
       
     </script>
