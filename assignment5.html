@@ -25,7 +25,8 @@
    <table id='thetable'></table>
   <script>
     addtolist = function() {
-      one = createTextNode(document.querySelector("#item1"));
+      one = document.querySelector("#item1");
+      one= document.createTextNode(one);
       two = document.querySelector("#item2").value;
       three = document.querySelector('#item3').value;
       four = document.querySelector('#item4').value;
