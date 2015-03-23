@@ -12,20 +12,35 @@
  </head> 
  <body>
   
-   <label for="item1">Item 1</label>
-     <input type="text" id="item1">
-   <label for="item2">Item 2</label>
+   <label for="item1" class='anelement'>Item 1</label>
+     <input type="text " id="item1">
+   <label for="item2" class='anelement>Item 2</label>
      <input type="text" id="item2">
-   <label for="item3">Item 3</label>
+   <label for="item3" class='anelement>Item 3</label>
      <input type="text" id="item3">
-   <label for="item4">Item 1</label>
+   <label for="item4" class='anelement>Item 1</label>
      <input type="text" id="item4">
-   <button id='adder'>Add to List</button>
-   <table id='thetable'>
-     
-   </table>
+   <button id='adder' onclick="addtolist()">Add to List</button>
+   
+   <table id='thetable'></table>
   <script>
-    
+    addtolist = function() {
+      one = document.querySelector("#item1").value;
+      two = document.querySelector("#item2").value;
+      three = document.querySelector('#item3').value;
+      four = document.querySelector('#item4').value;
+      clearer= document.querySelector('.anelement').value;
+      clearer.innerHTML ='';
+      thetable = document.querySelector('#thetable');
+      newrow = document.createElement('tr');
+      theitems[] = {one, two, three, four);
+      for (int item : theitems) {
+      newcolumn = document.createElement('td').appendChild(item);
+      newrow.appendChild(newcolumn);
+      }
+      thetable.appendchild(newrow);
+      
+    }
   </script> 
  </body>
 
