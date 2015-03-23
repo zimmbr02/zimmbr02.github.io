@@ -33,14 +33,10 @@
       thetable = document.querySelector('#thetable');
       newrow = document.createElement('tr');
       
-      newcolumn = document.createElement('td').appendChild(one);
+      newcolumn = document.createElement('td');
+      newcolumn.appendChild(one);
       newrow.appendChild(newcolumn);
-      newcolumn = document.createElement('td').appendChild(two);
-      newrow.appendChild(newcolumn);
-      newcolumn = document.createElement('td').appendChild(three);
-      newrow.appendChild(newcolumn);
-      newcolumn = document.createElement('td').appendChild(four);
-      newrow.appendChild(newcolumn);
+      
       
       thetable.appendChild(newrow);
       
