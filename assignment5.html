@@ -25,20 +25,15 @@
    <table id='thetable'></table>
   <script>
     addtolist = function() {
-      one = document.querySelector("#item1");
-      one= document.createTextNode(one);
-      two = document.querySelector("#item2").value;
-      three = document.querySelector('#item3').value;
-      four = document.querySelector('#item4').value;
+      
+      one= document.createTextNode(document.querySelector("#item1"));
+    
       
       thetable = document.querySelector('#thetable');
       newrow = document.createElement('tr');
-      
       newcolumn = document.createElement('td');
       newcolumn.appendChild(one);
       newrow.appendChild(newcolumn);
-      
-      
       thetable.appendChild(newrow);
       
     }
