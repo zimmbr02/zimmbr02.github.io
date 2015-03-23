@@ -27,14 +27,24 @@
     addtolist = function() {
       
       one= document.createTextNode(document.querySelector("#item1").value);
-      one= document.createTextNode(document.querySelector("#item1").value);
-      one= document.createTextNode(document.querySelector("#item1").value);
+      two= document.createTextNode(document.querySelector("#item2").value);
+      three= document.createTextNode(document.querySelector("#item3").value);
+      four= document.createTextNode(document.querySelector("#item4").value);
     
       
       thetable = document.querySelector('#thetable');
       newrow = document.createElement('tr');
       newcolumn = document.createElement('td');
       newcolumn.appendChild(one);
+      newrow.appendChild(newcolumn);
+      newcolumn = document.createElement('td');
+      newcolumn.appendChild(two);
+      newrow.appendChild(newcolumn);
+      newcolumn = document.createElement('td');
+      newcolumn.appendChild(three);
+      newrow.appendChild(newcolumn);
+      newcolumn = document.createElement('td');
+      newcolumn.appendChild(four);
       newrow.appendChild(newcolumn);
       thetable.appendChild(newrow);
       
