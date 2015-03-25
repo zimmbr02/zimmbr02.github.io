@@ -10,10 +10,7 @@
       href="assignment.css">
       
       <style>
-        .makered {
-          color:red;
-          text-decoration:line-through;
-        }
+        
         
         .checkedoff {
           text-decoration:line-through;
@@ -42,7 +39,7 @@
           newitem = document.createElement('li');
           newbox = document.createElement('input');
           newbox.type = "checkbox";
-          newbox.onclick = "redmaker();";
+          newbox.onclick = "checker";
           newitem.appendChild(newbox);
           newitem.appendChild(thetext);
           thelist.appendChild(newitem);
@@ -54,11 +51,11 @@
           thelist.innerHTML = "";
         }
         
-        redmaker = function() {
+        checker = function() {
           if (this.checked)
-           this.parentNode.classList.add('makered')
+           this.parentNode.classList.add('checkedoff')
           else
-           this.parentNode.classList.remove('makered')
+           this.parentNode.classList.remove('checkedoff')
           
         }
         
