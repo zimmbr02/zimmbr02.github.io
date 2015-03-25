@@ -54,14 +54,14 @@
         addtolist = function() {
           thelist = document.querySelector("#thelist");
           thetext = document.createTextNode(document.querySelector('#theitem').value);
-          thecolor= document.querySelector(#'acolors');
+          thecolorz= document.querySelector(#'acolors');
           newitem = document.createElement('li');
           newbox = document.createElement('input');
           newbox.type = "checkbox";
           newbox.onclick = checker;
-          theindex = thecolor.selectedIndex;
-          theoption = thecolor.options[theindex];
-          thetext.class = theoption.value;
+          theindex = thecolorz.selectedIndex;
+          theoption = thecolorz.options[theindex];
+          newitem.classList.add(theoption.value);
           newitem.appendChild(newbox);
           newitem.appendChild(thetext);
           thelist.appendChild(newitem);
