@@ -8,5 +8,36 @@
     <link rel="stylesheet"
       type="text/css"
       href="assignment.css">
+      
+      <style>
+        .makered {
+          color:red;
+        }
+        
+      </style>
+      
       </head>
+      <body>
+        <h1>To-Do List</h1>
+        <ul id="thelist"></ul>
+        
+        <label for="theitem">New To-Do</label>
+          <input type="text" id="theitem">
+        <button id="adder" onclick="addtolist();"></button>
+        
+        
+        <script>
+        addtolist = function() {
+          thelist = document.querySelector("#thelist");
+          thetext = document.querySelector('#theitem').value;
+          newitem = document.createElement('li');
+          newbox = document.createElement('cb');
+          newitem.appendChild(newbox);
+          newitem.appendChild(thetext);
+          
+          
+        }  
+        </script>
+        
+      </body>
 </html>
