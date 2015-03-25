@@ -12,6 +12,7 @@
       <style>
         .makered {
           color:red;
+          text-decoration:line-through;
         }
         
         ul {
@@ -28,7 +29,7 @@
         <label for="theitem">New To-Do</label>
           <input type="text" id="theitem">
         <button id="adder" onclick="addtolist();">Add To List</button>
-        
+        <button id='clear' onclick='clearlist();'>Clear List</button>
         
         <script>
         addtolist = function() {
@@ -36,13 +37,22 @@
           thetext = document.createTextNode(document.querySelector('#theitem').value);
           newitem = document.createElement('li');
           newbox = document.createElement('input');
-          newbox.type = "checkbox"
+          newbox.type = "checkbox";
           newitem.appendChild(newbox);
           newitem.appendChild(thetext);
           thelist.appendChild(newitem);
           
-          
         }  
+        
+        clearlist = functio() {
+          thelist = document.querySelector("#thelist");
+          thelist.innerHTML = "";
+        }
+        
+        redmaker = function() {
+          
+        }
+        
         </script>
         
       </body>
