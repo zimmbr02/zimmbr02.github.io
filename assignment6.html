@@ -40,7 +40,7 @@
         <label for="theitem">New To-Do</label>
           <input type="text" id="theitem">
         <button id="adder" onclick="addtolist();">Add To List</button>
-        <select id='colors'>
+        <select id='acolors'>
         <option>Red</option>
         <option>Blue</option>
         <option>Green</option>
@@ -54,14 +54,14 @@
         addtolist = function() {
           thelist = document.querySelector("#thelist");
           thetext = document.createTextNode(document.querySelector('#theitem').value);
-          thecolor= document.querySelector(#'colors');
+          thecolor= document.querySelector(#'acolors');
           newitem = document.createElement('li');
           newbox = document.createElement('input');
           newbox.type = "checkbox";
           newbox.onclick = checker;
           theindex = thecolor.selectedIndex;
           theoption = thecolor.options[theindex];
-          thetext.class = theoption
+          thetext.class = theoption.value;
           newitem.appendChild(newbox);
           newitem.appendChild(thetext);
           thelist.appendChild(newitem);
