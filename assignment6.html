@@ -34,9 +34,9 @@
         addtolist = function() {
           thelist = document.querySelector("#thelist");
           thetext = document.createTextNode(document.querySelector('#theitem').value);
-          newitem = document.createElement('input');
-          newitem.type = "checkbox"
-          newbox = document.createElement('cb');
+          newitem = document.createElement('li');
+          newbox = document.createElement('input');
+          newbox.type = "checkbox"
           newitem.appendChild(newbox);
           newitem.appendChild(thetext);
           thelist.appendChild(newitem);
