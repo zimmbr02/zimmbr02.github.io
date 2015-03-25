@@ -29,7 +29,7 @@
         <script>
         addtolist = function() {
           thelist = document.querySelector("#thelist");
-          thetext = document.querySelector('#theitem').value;
+          thetext = document.createTextNode(document.querySelector('#theitem').value);
           newitem = document.createElement('li');
           newbox = document.createElement('cb');
           newitem.appendChild(newbox);
