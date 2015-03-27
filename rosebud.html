@@ -42,8 +42,7 @@
         
       <button onclick="signin();">Go!</button>
       
-      <h1>List</h1> <button id='listmaker' onclick="creatort();">Add an user</button>
-      <ul id='out'></ul>
+      
       
     </section>
     
@@ -69,19 +68,7 @@
         alert("Is this correct?" + username + "," + password);
       }
       
-      creatort = function() {
-        thelist = document.querySelector('#out');
-        newitem = document.createElement('li');
-        newitem.innerHTML = username;
-        thelist.appendChild(newitem);
-      }
-      
-      Dumpscript= function(){
-         lc = thelist.lastChild;
-        lc = parseInt(lc)
-        ps = lc.previousSibling;
-      }
-      
+     
     </script>
     
   </body>
